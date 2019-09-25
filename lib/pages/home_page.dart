@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:movie_db/pages/initial_page.dart';
+import 'package:movie_db/routes/routes.dart';
 
 class HomePage extends StatelessWidget {
   @override
@@ -11,6 +12,8 @@ class HomePage extends StatelessWidget {
         backgroundColor: Colors.white,
       ),
       home: InitialPage(),
+      onGenerateRoute: Routes.generateRoute,
+      initialRoute: '/',
     );
   }
 }
