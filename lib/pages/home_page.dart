@@ -7,6 +7,7 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Movie DB',
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primaryColor: Colors.greenAccent,
         backgroundColor: Colors.white,
