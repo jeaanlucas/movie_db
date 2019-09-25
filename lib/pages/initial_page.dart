@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:movie_db/widgets/app_bar.dart';
+import 'package:movie_db/widgets/bottom_navigation.dart';
 import 'package:movie_db/widgets/drawer.dart';
 
 class InitialPage extends StatelessWidget {
@@ -16,10 +17,11 @@ class InitialPage extends StatelessWidget {
       body: Container(
         child: Center(
           child: Text(
-            'Movie DB'
+            'Movie DB',
           ),
         ),
       ),
+      bottomNavigationBar: CustomBottomBarNavigation(),
     );
   }
 }

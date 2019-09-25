@@ -30,6 +30,7 @@ dependencies:
   chewie: ^0.9.8
   http: ^0.12.0+2
   connectivity: ^0.4.3+7
+  circle_bottom_navigation: ^1.0.3
 
 dev_dependencies:
   flutter_test:
