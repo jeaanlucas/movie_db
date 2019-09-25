@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:movie_db/pages/initial_page.dart';
 
 class HomePage extends StatelessWidget {
   @override
@@ -9,6 +10,7 @@ class HomePage extends StatelessWidget {
         primaryColor: Colors.greenAccent,
         backgroundColor: Colors.white,
       ),
+      home: InitialPage(),
     );
   }
 }
